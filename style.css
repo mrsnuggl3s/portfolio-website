@@ -98,6 +98,9 @@ header, footer, article, nav, aside {
   justify-content: left;
 }
 .past-work{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   flex: 1.5;
   background-color: #fb36f4;
   
@@ -203,23 +206,26 @@ li a {
 
   .hero{
     display: flex;
+    flex-direction: column;
   }
 
   .hero-image{
     display: flex;
-    flex: 1;
   }
 
   .vert-move.flaoting-man{
     display: flex;
     background-color: #f8501c;
-    padding-top: 200px;
   }
 
   .name-with-arrow{
     max-width: 442px;
     align-self: center;
-    margin-bottom: 300px;
+  }
+
+  .name-with-arrow-container {
+    z-index: 1000;
+    transform: translate(-5rem, 3rem) !important;
   }
 
   img.vert-move {
