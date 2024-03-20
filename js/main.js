@@ -1,11 +1,12 @@
 
 $(document).ready(function () {
-    $('.card_portfolio').click(function() {
+
+    $('.card_portfolio').click(function () {
         var url = $(this).find('.view_project').attr('href');
         window.location.href = url;
     });
 
-    $('.menu_custom').click(() => {
+    $('.icon-custom').click(() => {
         $('.ul_menu').toggle(500);
         $('.icon-custom').toggleClass('active_custom');
     });
@@ -13,6 +14,23 @@ $(document).ready(function () {
 
     $('.scroll_content').click(function (event) {
         event.preventDefault();
+
+        var targetScroll = $(this).attr('href');
+        if (targetScroll) {
+            if ($(window).width() <= 765) {
+                $('html, body').animate({
+                    scrollTop: $(targetScroll).offset().top
+                }, 1000);
+            } else if ($(window).width() > 765) {
+                $('html, body').animate({
+                    scrollTop: $(targetScroll).offset().top - 43
+                }, 1000);
+            }
+        }
+
+    });
+
+    $('.scroll_content_page').click(function (event) {
 
         var targetScroll = $(this).attr('href');
         if (targetScroll) {
@@ -115,7 +133,7 @@ $(window).on('scroll', function () {
     var temp = ""
     $('.ul_menu a').each(function () {
         var target = $(this).attr('href');
-     
+
         if ($(target).length) {
             var targetPos = $(target).offset().top;
             var targetHeight = $(target).outerHeight();
@@ -131,6 +149,21 @@ $(window).on('scroll', function () {
 
             }
         }
+
+    });
+
+
+    $(function () {
+
+        $(".popup-content-images img").click(function () {
+            var $src = $(this).attr("src");
+            $(".popupContainer").fadeIn();
+            $(".popImage img").attr("src", $src);
+        });
+
+        $(".bi-x, .popUpBackground").click(function () {
+            $(".popupContainer").fadeOut();
+        });
 
     });
 

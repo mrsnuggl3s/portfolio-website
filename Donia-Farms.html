@@ -7,10 +7,12 @@
     <link rel="stylesheet" type="text/css" href="css/donia-farms.css?v=1.1"/>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="icon" href="images/website-favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
 </head>
 <body>
     <header>
-        <div class="container_header ">
+        <div class="container_header header-responsive">
             <div class="nav_custom">
                 <div class="menu_custom">
                     <div class="icon_menu">
@@ -19,17 +21,17 @@
                             <span></span>
                             <span></span>
                         </div>
-                        <img src="images/Layer_logo.svg" alt="" class="img_desktop" id="img_desktop">
-                        <img src="images/Layer_logo_mb.svg" alt="" id="mb_img" class="mb_img mb_menu_img">
+                        <a href="index.html"  id="img_desktop" class="img_desktop"><img src="images/Layer_logo.svg" alt="" class="img_desktop"></a>
+                       <a href="index.html" class="mb_img"> <img src="images/Layer_logo_mb.svg" alt="" id="mb_img" class="mb_img mb_menu_img"></a>
                     </div>
 
                     <ul class="ul_menu">
-                        <li><a href="#portfolio" id="portfolio_id" class="scroll_content">Portfolio <img
+                        <li><a href="index.html#portfolio" id="portfolio_id" class="scroll_content_page">Portfolio <img
                                     src="images/white-star 4.svg" alt="" class="hover_show"></a></li>
-                        <li><a href="#about" id="about_id" class="scroll_content">About <img
+                        <li><a href="index.html#about" id="about_id" class="scroll_content_page">About <img
                                     src="images/white-star 4.svg" alt="" class="hover_show"></a>
                         </li>
-                        <li> <a href="#contact" id="contact_id" class="scroll_content">Contact <img
+                        <li> <a href="index.html#contact" id="contact_id" class="scroll_content_page">Contact <img
                                     src="images/white-star 4.svg" alt="" class="hover_show"></a></li>
                     </ul>
                 </div>
@@ -174,7 +176,7 @@ Shots were organized by location and I employed wardrobe reference photos taken 
               </div>
             </div>
         </div>
-        <div class="gallery-image-Donia width-1k6">
+        <div class="gallery-image-Donia width-1k6 popup-content-images">
             <img class="gallery-Donia-item1" src="images/Rectangle 89.png" alt="" class="img_desktop">
             <img class="gallery-Donia-item2" src="images/Rectangle 90.png" alt="" class="img_desktop">
             <img class="gallery-Donia-item3" src="images/Rectangle 91.png" alt="" class="img_desktop">
@@ -204,7 +206,13 @@ Shots were organized by location and I employed wardrobe reference photos taken 
         </div>
         
     </div>
-   
+    <div class="popupContainer">
+        <div class="popUpBackground active"></div>
+        <div class="popImage">
+            <img src="">
+            <i class="bi bi-x"></i>
+        </div>
+    </div>
    
 </body>  
 
