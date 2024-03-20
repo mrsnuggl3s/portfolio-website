@@ -372,7 +372,10 @@ header {
 .research-in-process {
     margin-bottom: 35px;
 }
-
+.img-main-process{
+    display: flex;
+    justify-content: center;
+}
 .img-main-process-Donia {
     width: 100%;
     display: flex;
