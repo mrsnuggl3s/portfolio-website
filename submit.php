@@ -15,7 +15,7 @@
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
     // More headers
-    $headers .= 'From: <the78901234@gmail.com>' . "\r\n";
+    $headers .= 'From: <hello@natthandavis.com>' . "\r\n";
 
     $kq = mail($to, $subject, $msg, $headers);
     print_r($kq);
