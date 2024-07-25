@@ -6,7 +6,7 @@
     $message = $_POST['message'];
     
 
-    $to = "the78901234@gmail.com";
+    $to = "hello@natthandavis.com";
     $subject = "Contact Form ".$_SERVER['HTTP_HOST'];
     $msg = '<strong>Name</strong>:'.$name.'<br><strong>Company</strong>:'.$company.'<br><strong>Email</strong>:'.$email.'<br><strong>Message</strong>:'.$message;
 
