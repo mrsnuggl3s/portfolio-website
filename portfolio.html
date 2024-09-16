@@ -33,197 +33,286 @@
     </header>
 
 
-    <section class="md:px-4 px-0 mt-16 z-50 mx-auto">
+    <section class="mt-16 z-50 mx-auto">
         <!-- back navigation -->
-        <a href="index.html" class="flex align-center my-8">
-            <img src="images/arrow-left.svg" alt="back" width="15" class="mr-3"> <span>Back</span>
+        <a href="index.html" class="flex align-center mb-20 mt-8 ml-8 sm:my-8">
+            <span class="text-2xl" style="font-family: 'PT Serif';"><span class="mr-3"><</span>Back</span>
         </a>
 
-        <div class="md:p-6 p-0">
-            <ul class="flex">
-                <li class="z-40 bg-gray-3" id="tab1" onclick="openTab(1)">
-                    <a href="#" class="inline-block py-2 px-4 font-semibold text-black-700">
+        <div class="">
+            <ul class="flex md:px-8">
+                <li class="z-40 bg-[#eeeeee]" id="tab1" onclick="openTab(1)">
+                    <a href="#" class="left inline-block h-full py-2 px-4 text-lg" style="font-family: 'PT Serif';">
                         Videography
                     </a>
                 </li>
-                <li class="z-40 bg-gray-3" id="tab2" onclick="openTab(2)">
-                    <a href="#" class="inline-block py-2 px-4 font-semibold text-black-500">
+                <li class="z-40 bg-[#f6f2e7]" id="tab2" onclick="openTab(2)">
+                    <a href="#" class="right inline-block h-full py-2 px-4 text-lg" style="font-family: 'PT Serif';">
                         Graphic Design
                     </a>
                 </li>
             </ul>
-            <div class="w-full bg-gray-2 py-6 px-0 md:px-4">
-                <div id="content1" class="block bg-white md:bg-transparent">
-                    <div class="flex flex-col-reverse md:flex-row justify-between">
-                        <div class="md:w-1/3 w-full px-4 mt-8 md:mt-1">
+            <div class="w-full">
+                <div id="content1" class="block bg-[#eeeeee] px-3 md:px-10 py-10 md:py-20">
+                    <div class="flex gap-5 md:gap-20 flex-col-reverse md:flex-row justify-between">
+                        <div class="md:w-[600px] w-full">
                             <div class="mt-4 flex md:block justify-between text-sm md:text-lg text-black-500">
-                                <div>
-                                    <h2 class=" text-xl md:text-2xl font-bold">Featured Project</h2>
+                                <div class="flex-1">
+                                    <h2 class="text-2xl md:text-5xl font-bold">Featured Project</h2>
                                 </div>
-                                <div>
-                                    <h3 class="text-xs md:text-lg font-bold">Who: Moo Crema</h3>
-                                    <p>What: Logo design and Branding</p>
+                                <div class="w-max sm:w-auto mt-5 text-[14px] md:text-[18px]">
+                                    <p><b class="font-[600]">Who:</b> <i>Donia Farms</i></p>
+                                    <p><b class="font-[600]">What:</b> <i>Social Media Campaigns</i></p>
                                 </div>
                             </div>
 
-                            <div class="mt-4">
-                                <p class="w-full text-justify md:text-left"><b>Results:</b> Implementing the new
-                                    creative process in January 2024 led to
-                                    rapid growth in
-                                    Donia
-                                    Farms' social media presence, boosting organic reach to over 16 million, increasing
-                                    followers from 4,000
-                                    to over 70,000, and enhancing the brand's appeal to retailers, which expanded
-                                    product distribution.</p>
+                            <div class="mt-8">
+                                <p class="w-full text-justify md:text-left text-[18px]">
+                                    <b>Results:</b> 
+                                    <i class="font-light">
+                                        Implementing the new creative process in January 2024 led to rapid growth in Donia Farms' social media presence, boosting organic reach to over 16 million, increasing followers from 4,000 to over 70,000, and enhancing the brand's appeal to retailers, which expanded product distribution.
+                                    </i>
+                                </p>
                             </div>
 
-                            <div class="mt-4">
-                                <button class="text-white py-2 px-4 w-full md:w-auto">View Project</button>
+                            <div class="hidden sm:block mr-10">
+                                <img class="ml-auto max-w-[300px]" src="images/Untitled_Artwork 15 1.png" alt="">
+                            </div>
+
+                            <div class="text-center mt-4">
+                                <div class="button-container">
+                                    <button class="button mx-auto"><a href="contact.html">View Project</a></button>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="px-3 mt-4 md:mt-0 w-full md:w-2/3">
-                            <img src="images/portfolio-1.png" alt="Moo Crema logo" class="w-full rounded-lg">
+                        <div class="w-full md:flex-1">
+                            <img src="images/portfolio-1.png" alt="Moo Crema logo" class="w-full rounded-lg h-full">
+                        </div>
+                    </div>
+
+                    <section class="rounded-lg mt-20 relative">
+                        <h2 class="text-3xl sm:text-5xl bg-[#eeeeee] w-max font-bold absolute -top-6 md:-top-11 pr-4 md:p-4 z-50 ">What People Say</h2>
+                        <hr class="my-8 border-black border-2">
+                        <div class="flex flex-col md:flex-row gap-4">
+                            <div class="p-4 rounded-lg">
+                                <p class="text-[16px]">"Natthan's excitement, creativity, and ability to execute will bring any organization to the next
+                                    level."
+                                </p>
+                                <div class="w-max ml-auto mr-10">
+                                    <p class="text-black-500 text-xl">Mark H</p>
+                                    <p class="text-[13px]">Founder, Tabula Rasa Ventures</p>
+                                </div>
+                            </div>
+                            <div class="p-4 rounded-lg hidden md:block">
+                                <p class="text-[16px]">"Thanks a ton for all your hard work—we're thrilled with the results!"</p>
+                                <div class="w-max ml-auto mr-10">
+                                    <p class="text-black-500 text-xl">Jermime N</p>
+                                    <p class="text-[13px]">Marketing, Aroma Valley</p>
+                                </div>
+                            </div>
+                            <div class="p-4 rounded-lg hidden md:block">
+                                <p class="text-[16px]">"Have always enjoyed working with Natthan and looking forward to our next project."</p>
+                                <div class="w-max ml-auto mr-10">
+                                    <p class="text-black-500 text-xl">Arturo F</p>
+                                    <p class="text-[13px]">Marketing Director, Republica Cofee</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-8 border-black border-2">
+                    </section>
+            
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 py-8">
+                        <div class="rounded-lg portfolio-div">
+                            <div class="portfolio-item relative">
+                                <img src="images/portfolio-3.png" alt="MDAN Office UX/UI Design" class="w-full rounded-lg">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <p class="text-xl font-bold mt-2 mb-0">MDAN Office <span class="font-light italic">UX/UI Design</span></p>
+                            <p class="border-t border-black border-1 pt-1">Created logos and branding for California based ice creambrand.</p>
+                        </div>
+                        <div class="rounded-lg portfolio-div">
+                            <div class="portfolio-item relative">
+                                <img src="images/portfolio-4.png" alt="Towel Hoody Poster OOH Design" class="w-full rounded-lg">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <p class="text-xl font-bold mt-2 mb-0">Towel Hoody <span class="font-light italic">Poster OOH Design</span></p>
+                            <p class="border-t border-black border-1 pt-1">Created logos and branding for California based ice cream brand.</p>
+                        </div>
+                        <div class="rounded-lg portfolio-div">
+                            <div class="portfolio-item relative">
+                                <img src="images/portfolio-5.png" alt="The Quest Book Cover Design" class="w-full rounded-lg">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <p class="text-xl font-bold mt-2 mb-0">The Quest<span class="font-light italic"> Book Cover Design</span></p>
+                            <p class="border-t border-black border-1 pt-1">Created logos and branding for California based ice cream brand.</p>
+                        </div>
+                        <div class="rounded-lg portfolio-div">
+                            <div class="portfolio-item relative">
+                                <img src="images/portfolio-6.png" alt="Purely Free Logo & Package Design" class="w-full rounded-lg">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <p class="text-xl font-bold mt-2 mb-0">Purely Free<span class="font-light italic"> Free Logo & Package Design</span></p>
+                            <p class="border-t border-black border-1 pt-1">Created logos and branding for California based ice cream brand.</p>
+                        </div>
+                        <div class="rounded-lg portfolio-div">
+                            <div class="portfolio-item relative">
+                                <img src="images/portfolio-7.png" alt="Donia Farms Social Media Ads" class="w-full rounded-lg">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <p class="text-xl font-bold mt-2 mb-0">Donia Farms<span class="font-light italic"> Social Media Ads</span></p>
+                            <p class="border-t border-black border-1 pt-1">Created logos and branding for California based ice cream brand.</p>
                         </div>
                     </div>
                 </div>
-                <div id="content2" class="hidden bg-white md:bg-transparent">
-                    <div class="flex flex-col-reverse md:flex-row justify-between">
-                        <div class="md:w-1/3 w-full px-4 mt-8 md:mt-1">
+                <div id="content2" class="hidden bg-[#f6f2e7] px-3 md:px-10 py-10 md:py-20">
+                    <div class="flex gap-5 sm:gap-20 flex-col-reverse md:flex-row justify-between">
+                        <div class="md:w-[600px] w-full">
                             <div class="mt-4 flex md:block justify-between text-sm md:text-lg text-black-500">
-                                <div>
-                                    <h2 class=" text-xl md:text-2xl font-bold">Featured Project</h2>
+                                <div class="flex-1">
+                                    <h2 class="text-2xl md:text-5xl font-bold">Featured Project</h2>
                                 </div>
-                                <div>
-                                    <h3 class="text-xs md:text-lg font-bold">Who: Moo Crema</h3>
-                                    <p>What: Logo design and Branding</p>
+                                <div class="w-max sm:w-auto mt-5 text-[14px] md:text-[18px]">
+                                    <p><b class="font-[600]">Who:</b> <i>Moo Crema</i></p>
+                                    <p><b class="font-[600]">What:</b> <i>Logo design and Branding</i></p>
                                 </div>
                             </div>
 
-                            <div class="mt-4">
-                                <p class="w-full text-justify md:text-left"><b>Results:</b> Implementing the new
-                                    creative
-                                    process in January
-                                    2024 led to
-                                    rapid growth in
-                                    Donia
-                                    Farms' social media presence, boosting organic reach to over 16 million, increasing
-                                    followers from 4,000
-                                    to over 70,000, and enhancing the brand's appeal to retailers, which expanded
-                                    product distribution.</p>
+                            <div class="mt-8">
+                                <p class="w-full text-justify md:text-left text-[18px]">
+                                    <b>Results:</b> 
+                                    <i class="font-light">
+                                        Implementing the new creative process in January 2024 led to rapid growth in Donia Farms' social media presence, boosting organic reach to over 16 million, increasing followers from 4,000 to over 70,000, and enhancing the brand's appeal to retailers, which expanded product distribution.
+                                    </i>
+                                </p>
                             </div>
 
-                            <div class="mt-4">
-                                <button class="text-white py-2 px-4 w-full md:w-auto">View Project</button>
+                            <div class="hidden sm:block mr-10">
+                                <img class="ml-auto max-w-[300px]" src="images/Untitled_Artwork 15 1.png" alt="">
+                            </div>
+
+                            <div class="text-center mt-4">
+                                <div class="button-container">
+                                    <button class="button mx-auto"><a href="contact.html">View Project</a></button>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="px-3 mt-4 md:mt-0 w-full md:w-2/3">
-                            <img src="images/portfolio-2.png" alt="Moo Crema logo" class="w-full rounded-lg">
+                        <div class="w-full md:flex-1">
+                            <img src="images/Rectangle 183.png" alt="Moo Crema logo" class="w-full rounded-lg h-full">
+                        </div>
+                    </div>
+
+                    <section class="rounded-lg mt-20 relative">
+                        <h2 class="text-3xl sm:text-5xl bg-[#f6f2e7] w-max font-bold absolute -top-6 md:-top-11 pr-4 md:p-4 z-50 ">What People Say</h2>
+                        <hr class="my-8 border-black border-2">
+                        <div class="flex flex-col md:flex-row gap-4">
+                            <div class="p-4 rounded-lg">
+                                <p class="text-[16px]">"Natthan's excitement, creativity, and ability to execute will bring any organization to the next
+                                    level."
+                                </p>
+                                <div class="w-max ml-auto mr-10">
+                                    <p class="text-black-500 text-xl">Mark H</p>
+                                    <p class="text-[13px]">Founder, Tabula Rasa Ventures</p>
+                                </div>
+                            </div>
+                            <div class="p-4 rounded-lg hidden md:block">
+                                <p class="text-[16px]">"Thanks a ton for all your hard work—we're thrilled with the results!"</p>
+                                <div class="w-max ml-auto mr-10">
+                                    <p class="text-black-500 text-xl">Jermime N</p>
+                                    <p class="text-[13px]">Marketing, Aroma Valley</p>
+                                </div>
+                            </div>
+                            <div class="p-4 rounded-lg hidden md:block">
+                                <p class="text-[16px]">"Have always enjoyed working with Natthan and looking forward to our next project."</p>
+                                <div class="w-max ml-auto mr-10">
+                                    <p class="text-black-500 text-xl">Arturo F</p>
+                                    <p class="text-[13px]">Marketing Director, Republica Cofee</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-8 border-black border-2">
+                    </section>
+            
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 py-8">
+                        <div class="rounded-lg portfolio-div">
+                            <div class="portfolio-item relative">
+                                <img src="images/portfolio-3.png" alt="MDAN Office UX/UI Design" class="w-full rounded-lg">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <p class="text-xl font-bold mt-2 mb-0">MDAN Office <span class="font-light italic">UX/UI Design</span></p>
+                            <p class="border-t border-black border-1 pt-1">Created logos and branding for California based ice creambrand.</p>
+                        </div>
+                        <div class="rounded-lg portfolio-div">
+                            <div class="portfolio-item relative">
+                                <img src="images/portfolio-4.png" alt="Towel Hoody Poster OOH Design" class="w-full rounded-lg">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <p class="text-xl font-bold mt-2 mb-0">Towel Hoody <span class="font-light italic">Poster OOH Design</span></p>
+                            <p class="border-t border-black border-1 pt-1">Created logos and branding for California based ice cream brand.</p>
+                        </div>
+                        <div class="rounded-lg portfolio-div">
+                            <div class="portfolio-item relative">
+                                <img src="images/portfolio-5.png" alt="The Quest Book Cover Design" class="w-full rounded-lg">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <p class="text-xl font-bold mt-2 mb-0">The Quest<span class="font-light italic"> Book Cover Design</span></p>
+                            <p class="border-t border-black border-1 pt-1">Created logos and branding for California based ice cream brand.</p>
+                        </div>
+                        <div class="rounded-lg portfolio-div">
+                            <div class="portfolio-item relative">
+                                <img src="images/portfolio-6.png" alt="Purely Free Logo & Package Design" class="w-full rounded-lg">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <p class="text-xl font-bold mt-2 mb-0">Purely Free<span class="font-light italic"> Free Logo & Package Design</span></p>
+                            <p class="border-t border-black border-1 pt-1">Created logos and branding for California based ice cream brand.</p>
+                        </div>
+                        <div class="rounded-lg portfolio-div">
+                            <div class="portfolio-item relative">
+                                <img src="images/portfolio-7.png" alt="Donia Farms Social Media Ads" class="w-full rounded-lg">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <p class="text-xl font-bold mt-2 mb-0">Donia Farms<span class="font-light italic"> Social Media Ads</span></p>
+                            <p class="border-t border-black border-1 pt-1">Created logos and branding for California based ice cream brand.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
-
-        <section class="bg-white p-4 rounded-lg">
-            <h2 class="text-2xl w-max font-bold absolute bg-white p-4 z-50">What People Say</h2>
-            <hr class="my-8 border-black border-2">
-            <div class="flex flex-col md:flex-row gap-4">
-                <div class="bg-white p-4 rounded-lg">
-                    <p>"Natthan's excitement, creativity, and ability to execute will bring any organization to the next
-                        level."
-                    </p>
-                    <p class="text-black-500 font-bold">Mark H</p>
-                    <p class="text-xs text-gray-400">Founder, Tabula Rasa Ventures</p>
-                </div>
-                <div class="bg-white p-4 rounded-lg hidden md:block">
-                    <p>"Thanks a ton for all your hard work—we're thrilled with the results!"</p>
-                    <p class="text-black-500 font-bold">Jermime N</p>
-                    <p class="text-xs text-gray-400">Marketing, Aroma Valley</p>
-                </div>
-                <div class="bg-white p-4 rounded-lg hidden md:block">
-                    <p>"Have always enjoyed working with Natthan and looking forward to our next project."</p>
-                    <p class="text-black-500 font-bold">Arturo F</p>
-                    <p class="text-xs text-gray-400">Marketing Director, Republica Cofee</p>
-                </div>
-            </div>
-            <hr class="my-8 border-black border-2">
-        </section>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 py-8">
-            <div class="p-2 rounded-lg portfolio-div">
-                <div class="portfolio-item relative">
-                    <img src="images/portfolio-3.png" alt="MDAN Office UX/UI Design" class="w-full rounded-lg">
-                    <div class="overlay">
-                        <span>View Project</span>
-                    </div>
-                </div>
-                <p class="text-lg font-bold mt-2">MDAN Office UX/UI Design</p>
-                <p class="border-t border-black border-1">Created logos and branding for California based ice cream
-                    brand.</p>
-            </div>
-            <div class="p-2 rounded-lg portfolio-div">
-                <div class="portfolio-item relative">
-                    <img src="images/portfolio-4.png" alt="Towel Hoody Poster OOH Design" class="w-full rounded-lg">
-                    <div class="overlay">
-                        <span>View Project</span>
-                    </div>
-                </div>
-                <p class="text-lg font-bold mt-2">Towel Hoody Poster OOH Design</p>
-
-                <p class="border-t border-black border-1">Created logos and branding for California based ice cream
-                    brand.</p>
-            </div>
-            <div class="p-2 rounded-lg portfolio-div">
-                <div class="portfolio-item relative">
-                    <img src="images/portfolio-5.png" alt="The Quest Book Cover Design" class="w-full rounded-lg">
-                    <div class="overlay">
-                        <span>View Project</span>
-                    </div>
-                </div>
-                <p class="text-lg font-bold mt-2">The Quest Book Cover Design</h3>
-                <p class="border-t border-black border-1">Created logos and branding for California based ice cream
-                    brand.</p>
-            </div>
-            <div class="p-2 rounded-lg portfolio-div">
-                <div class="portfolio-item relative">
-                    <img src="images/portfolio-6.png" alt="Purely Free Logo & Package Design" class="w-full rounded-lg">
-                    <div class="overlay">
-                        <span>View Project</span>
-                    </div>
-                </div>
-                <p class="text-lg font-bold mt-2">Purely Free Logo & Package Design</p>
-                <p class="border-t border-black border-1">Created logos and branding for California based ice cream
-                    brand.</p>
-            </div>
-            <div class="p-2 rounded-lg portfolio-div">
-                <div class="portfolio-item relative">
-                    <img src="images/portfolio-7.png" alt="Donia Farms Social Media Ads" class="w-full rounded-lg">
-                    <div class="overlay">
-                        <span>View Project</span>
-                    </div>
-                </div>
-                <p class="text-lg font-bold mt-2">Donia Farms Social Media Ads</p>
-                <p class="border-t border-black border-1">Created logos and branding for California based ice cream
-                    brand.</p>
-            </div>
-        </div>
-
-
-
-        <!-- Footer -->
-        <footer class="bg-gray-3 text-black py-6">
-            <div class="container mx-auto text-center">
-                <div class="md:flex md:justify-start">
-                    <p class="md:mr-4">hello@natthandavis.com</p>
-                </div>
-                <p class="md:text-left">Nathan Davis 2024</p>
-                <p>Built by <a href="https://github.com/adeife16" target="_blank"><strong>adecoder</strong></a></p>
-            </div>
-        </footer>
     </section>
+    <!-- Footer -->
+    <footer class="bg-[#d9d9d9] text-black py-6">
+        <div class="container px-2 sm:px-3 mx-auto">
+            <div class="">
+                <div class="relative top-2 sm:top-5">
+                    <p class="text-[14px] text-[16px] mb-0">hello@natthandavis.com <br>Nathan Davis 2024</p>
+                </div>
+                <div class="hidden sm:block">
+                    <p class="text-[14px] text-[16px] text-center">Built by <a href="https://github.com/adeife16" target="_blank"><strong>****</strong></a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
@@ -236,8 +325,8 @@
             const contents = ['content1', 'content2'];
             const tabs = ['tab1', 'tab2'];
 
-            const activeClasses = 'bg-gray-2 text-black-700 text-2xl tab-open';
-            const inactiveClasses = 'text-black bg-gray-3 text-sm';
+            const activeClasses = '!px-10 tab-open';
+            const inactiveClasses = 'tab-hidden';
 
             // Loop through tabs and content divs to reset them
             contents.forEach((contentId, index) => {
