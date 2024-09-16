@@ -103,7 +103,6 @@ h1, h2, h3, h4, h5, h6, .serif{
     display: block;
     width: 100%;
     height: auto;
-    border-radius: 8px;
 }
 
 .overlay {
@@ -120,7 +119,6 @@ h1, h2, h3, h4, h5, h6, .serif{
     transition: opacity 0.3s ease;
     color: white;
     font-size: 1.5rem;
-    border-radius: 8px; /* Matches image border-radius */
 }
 
 .portfolio-item:hover .overlay {
