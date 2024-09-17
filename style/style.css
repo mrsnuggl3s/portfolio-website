@@ -154,10 +154,10 @@ h1, h2, h3, h4, h5, h6, .serif{
 .button-container::before {
     content: "";
     position: absolute;
-    bottom: -10px;
-    left: -7px;
-    right: 0;
-    height: 40px;
+    bottom: -12px;
+    left: -12px;
+    right: 8px;
+    height: 60px;
     background-image: url('../images/button.png');
     background-size: cover;
     background-repeat: no-repeat;
