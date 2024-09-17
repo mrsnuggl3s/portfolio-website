@@ -209,10 +209,11 @@ h1, h2, h3, h4, h5, h6, .serif{
     transition: all .3s;
 }
 
-.tab-container li:hover a {
+.tab-container li:not(.about-tab):hover a {
     padding-left: 30px;
     padding-right: 30px;
  }
+
  .active-border {
      position: relative;
  }
